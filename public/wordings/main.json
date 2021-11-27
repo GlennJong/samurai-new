@@ -1,0 +1,123 @@
+{
+    "homepage": {
+        "banner": {
+            "photo": "/images/homepage-banner.png"
+        },
+        "mint": {
+            "samurai": [
+                "/images/homepage-samurai-1.png",
+                "/images/homepage-samurai-1.png",
+                "/images/homepage-samurai-1.png",
+                "/images/homepage-samurai-1.png",
+                "/images/homepage-samurai-1.png",
+                "/images/homepage-samurai-1.png",
+                "/images/homepage-samurai-1.png",
+                "/images/homepage-samurai-1.png",
+                "/images/homepage-samurai-1.png"
+            ],
+            "array": [
+                [0],
+                [1,2],
+                [3,4,5],
+                [6,7],
+                [8]
+            ],
+            "title": "KATANA N SAMURAI",
+            "subtitle": "The Last Ramen",
+            "content": "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!",
+            "price": 0.05,
+            "note": "PHASE TWO / 24 REMAINING",
+            "hint": "🦊 Please Connect to Metamask with the right button first."
+        },
+        "roadmap": {
+            "list": [
+                { "title": "KNS Roadmap Demo", "description": "KNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap Demo", "percent": 20, "reach": true, "photo": "/images/homepage-roadmap-1.png" },
+                { "title": "KNS Roadmap Demo", "description": "KNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap Demo", "percent": 20, "reach": true, "photo": "/images/homepage-roadmap-1.png" },
+                { "title": "KNS Roadmap Demo", "description": "Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap Demo", "percent": 20, "reach": true, "photo": "/images/homepage-roadmap-1.png" }
+            ]
+        },
+        "discord": {
+            "list": [
+                "/images/homepage-discord-1.png",
+                "/images/homepage-discord-1.png",
+                "/images/homepage-discord-1.png"
+            ],
+            "title": "Join our Discord",
+            "description": "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world."
+        },
+        "artist": {
+            "head": "/images/homepage-artist-1.png",
+            "subtitle": "ARTIST",
+            "title": "Title",
+            "conent": "People who join \nSamuraiverse will be involved.\nWho join Samurai verse.\nPeople who join \nSamuraiverse will be involved.",
+            "gallery": [
+                [
+                    { "title": "TITLE", "note": "Digital Painting  / 2021", "photo": "/images/homepage-artist-2.png" },
+                    { "title": "TITLE", "note": "Digital Painting  / 2021", "photo": "/images/homepage-artist-2.png" }
+                ],
+                [
+                    { "title": "TITLE", "note": "Digital Painting  / 2021", "photo": "/images/homepage-artist-2.png" }
+                ],
+                [
+                    { "title": "TITLE", "note": "Digital Painting  / 2021", "photo": "/images/homepage-artist-2.png" }
+                ],
+                [
+                    { "title": "TITLE", "note": "Digital Painting  / 2021", "photo": "/images/homepage-artist-2.png" },
+                    { "title": "TITLE", "note": "Digital Painting  / 2021", "photo": "/images/homepage-artist-2.png" }
+                ]
+            ],
+            "card_data": [
+                { "photo": "/images/homepage-artist-3.png", "title": "KNS VERSE1", "content": "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world." },
+                { "photo": "/images/homepage-artist-3.png", "title": "KNS VERSE2", "content": "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world." },
+                { "photo": "/images/homepage-artist-3.png", "title": "KNS VERSE3", "content": "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world." }
+            ],
+            "artist_data": [
+                { "title": "title1", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
+                { "title": "title2", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
+                { "title": "title3", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
+                { "title": "title4", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
+                { "title": "title5", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
+                { "title": "title6", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
+                { "title": "title7", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
+                { "title": "title8", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
+                { "title": "title9", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" }
+            ],
+            "artist_data_array": [
+                [0],
+                [1,2],
+                [3,4,5],
+                [6,7],
+                [8]
+            ]
+        },
+        "merch": {
+            "list": [
+                { "photo": "/images/homepage-merch-1.png", "title": "title", "link": "https://google.com" },
+                { "photo": "/images/homepage-merch-2.png", "title": "title", "link": "https://google.com" },
+                { "photo": "/images/homepage-merch-3.png", "title": "title", "link": "https://google.com" },
+                { "photo": "/images/homepage-merch-1.png", "title": "title", "link": "https://google.com" },
+                { "photo": "/images/homepage-merch-2.png", "title": "title", "link": "https://google.com" },
+                { "photo": "/images/homepage-merch-3.png", "title": "title", "link": "https://google.com" },
+                { "photo": "/images/homepage-merch-1.png", "title": "title", "link": "https://google.com" },
+                { "photo": "/images/homepage-merch-2.png", "title": "title", "link": "https://google.com" }
+            ]
+        },
+        "crossover": {
+            "photo": "/images/homepage-crossover.png",
+            "content": "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world."
+        }
+    },
+    "header": {
+      "links": [
+        { "to": "/?to=gallery", "title": "MINT"},
+        { "to": "/?to=social-class", "title": "GALLERY" },
+        { "to": "/?to=purchase", "title": "ROADMAP"},
+        { "to": "/my-samurai", "title": "ABOUT US"},
+        { "to": "/?to=road-map", "title": "FAQ"}
+      ],
+      "socials": [
+        { "icon": "Discord", "link": "https://discord.gg/bYVgUrWdyr" },
+        { "icon": "Twitter", "link": "https://twitter.com/KatanaNSamurai" }
+      ]
+    }
+}
