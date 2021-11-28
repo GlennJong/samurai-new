@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled, { css, keyframes } from 'styled-components';
+import { respondTo } from '../../utils/responsive';
 
 const IntroAnimation = () => {
   const [ animationStatus, setAnimationStatus ] = useState('stop');
@@ -35,6 +36,9 @@ const Root = styled.div`
   height: 100vh;
   background: black;
   cursor: pointer;
+  ${respondTo.md} {
+    display: none !important;
+  }
   ${({ status }) => status === 'start' && css `
     animation: ${RootAnimation} .5s ease 3s;
   `}
