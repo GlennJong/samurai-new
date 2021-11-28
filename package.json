@@ -32,6 +32,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "public": "mv build/.git temp && mv build/CNAME temp && react-scripts build && mv temp/.git build && mv temp/CNAME build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

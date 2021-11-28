@@ -9,6 +9,7 @@ import appStore from './store/app';
 import walletStatus from './store/walletStatus';
 
 import GlobalStyle from './components/GlobalStyle';
+import IntroAnimation from './components/IntroAnimation';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
@@ -39,6 +40,7 @@ const App = ({ wording, Router = BrowserRouter }) => {
         { wordingLoaded &&
           <>
             <Header />
+            <IntroAnimation />
             <Switch>
               <Route path="/" exact={true} component={HomePage} />
             </Switch>

@@ -15,7 +15,6 @@ import { respondTo } from '../../utils/responsive';
 const HomePage = () => {
   return (
     <Root>
-      {/* IntroAnimation */}
       <BannerSection />
       <MintSection />
       <RoadMapSection />

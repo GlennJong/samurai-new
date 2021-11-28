@@ -9,7 +9,11 @@ const IntroAnimation = () => {
 }
 
 const Root = styled.div`
-  
+  position: fixed;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  background: black; 
 `
 
 export default IntroAnimation
