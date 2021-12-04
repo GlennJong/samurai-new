@@ -2,18 +2,11 @@ import React, { useState } from 'react';
 import styled, { css } from 'styled-components';
 import { colors } from '../../constants/colors';
 import { respondTo } from '../../utils/responsive';
-
-const data = [
-  { question: "・What happens if all 10000 editions run out?", answer: "If you are unable to purchase on the first mint listing, you’re always welcome to buy in secondary market. Let’s get it while it’s not too LATE."},
-  { question: "・What happens if all 10000 editions run out?", answer: "If you are unable to purchase on the first mint listing, you’re always welcome to buy in secondary market. Let’s get it while it’s not too LATE."},
-  { question: "・What happens if all 10000 editions run out?", answer: "If you are unable to purchase on the first mint listing, you’re always welcome to buy in secondary market. Let’s get it while it’s not too LATE."},
-  { question: "・What happens if all 10000 editions run out?", answer: "If you are unable to purchase on the first mint listing, you’re always welcome to buy in secondary market. Let’s get it while it’s not too LATE."},
-  { question: "・What happens if all 10000 editions run out?", answer: "If you are unable to purchase on the first mint listing, you’re always welcome to buy in secondary market. Let’s get it while it’s not too LATE."},
-  { question: "・What happens if all 10000 editions run out?", answer: "If you are unable to purchase on the first mint listing, you’re always welcome to buy in secondary market. Let’s get it while it’s not too LATE."},
-]
+import { _w } from '../../utils/wordingSystem';
 
 const FAQSection = () => {
   const [ current, setCurrent ] = useState(null);
+  const wording = _w('homepage.faq')
   
 
   function handleClickItem(e) {
@@ -26,7 +19,7 @@ const FAQSection = () => {
       <Title>FAQ</Title>
       <Wrapper>
         <List>
-          { data.map((item, i) => 
+          { wording.list.map((item, i) => 
             <li key={i}>
               <Item open={current === i}>
                 <div className="question" data-index={i} onClick={handleClickItem}>{ item.question }</div>

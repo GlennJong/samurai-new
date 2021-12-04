@@ -1,25 +1,18 @@
-import React, { useState } from 'react';
-import styled, { css } from 'styled-components';
+import React from 'react';
+import styled from 'styled-components';
 import { colors } from '../../constants/colors';
 import { respondTo } from '../../utils/responsive';
+import { _w } from '../../utils/wordingSystem';
 
-const data = [
-  { title: "Terms & Conditions", content: "People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! "},
-  { title: "Terms & Conditions", content: "People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! "},
-  { title: "Terms & Conditions", content: "People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! "},
-  { title: "Terms & Conditions", content: "People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! "},
-  { title: "Terms & Conditions", content: "People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! "},
-  { title: "Terms & Conditions", content: "People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! "},
-]
 
 const ManifestoSection = () => {
-  
+  const wording = _w('homepage.manifesto')
   return (
     <Root>
       <Title>Manifesto</Title>
       <Wrapper>
         <List>
-          { data.map((item, i) => 
+          { wording.list.map((item, i) => 
             <li key={i}>
               <Item >
                 <div className="title">{ item.title }</div>

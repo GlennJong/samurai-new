@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import Slick from 'react-slick';
 import styled, { css } from 'styled-components';
 import { colors } from '../../constants/colors';

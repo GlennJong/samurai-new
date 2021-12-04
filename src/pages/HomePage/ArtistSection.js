@@ -1,106 +1,100 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import Carousel from '../../components/CarouselNew';
 import CardCarousel from '../../components/CardCarousel';
 import ArtistCarousel from '../../components/ArtistCarousel';
+import ModalBox from '../../components/ModalBox';
 import { colors } from '../../constants/colors';
 import { respondTo } from '../../utils/responsive';
 import { _w } from '../../utils/wordingSystem';
 
-const data = [
-  [
-    { title: "TITLE", note: "Digital Painting  / 2021", photo: "http://placehold.it/400x500" },
-    { title: "TITLE", note: "Digital Painting  / 2021", photo: "http://placehold.it/400x500" },
-  ],
-  [
-    { title: "TITLE", note: "Digital Painting  / 2021", photo: "http://placehold.it/400x500" },
-  ],
-  [
-    { title: "TITLE", note: "Digital Painting  / 2021", photo: "http://placehold.it/400x500" },
-  ],
-  [
-    { title: "TITLE", note: "Digital Painting  / 2021", photo: "http://placehold.it/400x500" },
-    { title: "TITLE", note: "Digital Painting  / 2021", photo: "http://placehold.it/400x500" },
-  ]
-]
-
-const cardData = [
-  { photo: "http://placehold.it/500x800?text=1", title: "KNS VERSE1", content: "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world." },
-  { photo: "http://placehold.it/500x800?text=2", title: "KNS VERSE2", content: "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world." },
-  { photo: "http://placehold.it/500x800?text=3", title: "KNS VERSE3", content: "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world." },
-]
-
-const artistData = [
-  { title: "title1", subtitle: "subtitle", content: " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", photo: "http://placehold.it/500x500?text=1", },
-  { title: "title2", subtitle: "subtitle", content: " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", photo: "http://placehold.it/500x500?text=2", },
-  { title: "title3", subtitle: "subtitle", content: " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", photo: "http://placehold.it/500x500?text=3", },
-  { title: "title4", subtitle: "subtitle", content: " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", photo: "http://placehold.it/500x500?text=4", },
-  { title: "title5", subtitle: "subtitle", content: " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", photo: "http://placehold.it/500x500?text=5", },
-  { title: "title6", subtitle: "subtitle", content: " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", photo: "http://placehold.it/500x500?text=6", },
-  { title: "title7", subtitle: "subtitle", content: " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", photo: "http://placehold.it/500x500?text=7", },
-  { title: "title8", subtitle: "subtitle", content: " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", photo: "http://placehold.it/500x500?text=8", },
-  { title: "title9", subtitle: "subtitle", content: " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", photo: "http://placehold.it/500x500?text=9", },
-]
-
 const ArtistSection = () => {
   const wording = _w('homepage.artist');
+  const [ modalOpen, setModalOpen ] = useState(false)
+  const [ selectedPicture, setSelectedPicture ] = useState(null)
+  
+  function handleClickPicture(e) {
+    const { picture } = e.currentTarget.dataset;
+    setSelectedPicture(picture)
+    setModalOpen(true)
+  }
+
+  function handleCloseModal() {
+    setModalOpen(false)
+    setTimeout(() => {
+      setSelectedPicture(null)
+    }, 300);
+  }
   
   return (
-    <Root>
-      <Title>ARTIST</Title>
-      <Section1>
-        <Info>
-          <div className="head">
-            <img src={wording.head} alt="" />
+    <>
+      <ModalBox open={modalOpen} onClose={handleCloseModal}>
+        <Image src={selectedPicture} alt="" />
+      </ModalBox>
+      <Root>
+        <Title>ARTIST</Title>
+        <Section1>
+          <Info>
+            <div className="head">
+              <img src={wording.head} alt="" />
+            </div>
+            <div className="info">
+              <div className="subtitle">{ wording.subtitle }</div>
+              <div className="title">{ wording.title }</div>
+              <div className="content">{ wording.content }</div>
+            </div>
+          </Info>
+          <Gallery>
+            <Carousel navStyle="bottom: calc(100% + 50px); right: 0; width: auto">
+              { wording.gallery.map((item, i) =>
+                <List qty={item.length} key={i}>
+                  { item.map((child, j) =>
+                    <li key={j}>
+                      <Item>
+                        <div className="photo"
+                          data-picture={child.photo}
+                          onClick={handleClickPicture}>
+                          <img src={child.photo} alt="" />
+                        </div>
+                        <div className="title">{ child.title }</div>
+                        <div className="note">{ child.note }</div>
+                      </Item>
+                    </li>
+                  ) }
+                </List>
+              ) }
+            </Carousel>
+          </Gallery>
+          <GalleryMobile>
+            <Carousel navMobileStyle="top: auto; bottom: 30px; right: 0; width: auto">
+              { wording.gallery.flat().map((item, i) =>
+                <div key={i}>
+                  <Item>
+                    <div className="photo"
+                      data-picture={item.photo}
+                      onClick={handleClickPicture}>
+                      <img src={item.photo} alt="" />
+                    </div>
+                    <div className="title">{ item.title }</div>
+                    <div className="note">{ item.note }</div>
+                  </Item>
+                </div>
+              ) }
+            </Carousel>
+          </GalleryMobile>
+        </Section1>
+        <Section2>
+          <CardContainer>
+            <CardCarousel data={wording.card_data} />
+          </CardContainer>
+        </Section2>
+        <Section3>
+          <div className="container">
+            <ArtistCarousel data={wording.artist_data} childrenQty={wording.artist_data_array} />
           </div>
-          <div className="info">
-            <div className="subtitle">{ wording.subtitle }</div>
-            <div className="title">{ wording.title }</div>
-            <div className="content">{ wording.content }</div>
-          </div>
-        </Info>
-        <Gallery>
-          <Carousel navStyle="bottom: calc(100% + 50px); right: 0; width: auto">
-            { wording.gallery.map((item, i) =>
-              <List qty={item.length} key={i}>
-                { item.map((child, j) =>
-                  <li key={j}>
-                    <Item>
-                      <div className="photo"><img src={child.photo} alt="" /></div>
-                      <div className="title">{ child.title }</div>
-                      <div className="note">{ child.note }</div>
-                    </Item>
-                  </li>
-                ) }
-              </List>
-            ) }
-          </Carousel>
-        </Gallery>
-        <GalleryMobile>
-          <Carousel navMobileStyle="top: auto; bottom: 30px; right: 0; width: auto">
-            { wording.gallery.flat().map((item, i) =>
-              <div key={i}>
-                <Item>
-                  <div className="photo"><img src={item.photo} alt="" /></div>
-                  <div className="title">{ item.title }</div>
-                  <div className="note">{ item.note }</div>
-                </Item>
-              </div>
-            ) }
-          </Carousel>
-        </GalleryMobile>
-      </Section1>
-      <Section2>
-        <CardContainer>
-          <CardCarousel data={wording.card_data} />
-        </CardContainer>
-      </Section2>
-      <Section3>
-        <div className="container">
-          <ArtistCarousel data={wording.artist_data} childrenQty={wording.artist_data_array} />
-        </div>
-      </Section3>
-    </Root>
+        </Section3>
+      </Root>
+    </>
   )
 }
 
@@ -261,6 +255,7 @@ const List = styled.ul`
 `
 const Item = styled.div`
   .photo {
+    cursor: pointer;
     border-radius: 20px;
     margin-bottom: 40px;
     width: 100%;
@@ -310,6 +305,13 @@ const CardContainer = styled.div`
     width: calc(100% + 68px);
     max-width: calc(100% + 68px);
   }
+`
+
+const Image = styled.img`
+  display: block;
+  object-fit: contain;
+  max-width: 80vw;
+  max-height: 80vh;
 `
 
 

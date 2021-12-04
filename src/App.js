@@ -40,7 +40,7 @@ const App = ({ wording, Router = BrowserRouter }) => {
         { wordingLoaded &&
           <>
             <Header />
-            <IntroAnimation />
+            {/* <IntroAnimation /> */}
             <Switch>
               <Route path="/" exact={true} component={HomePage} />
             </Switch>

@@ -28,7 +28,7 @@ const RoadMapSection = () => {
   )
 }
 
-const RoadMapItem = ({ title, description, photo, reach, percent }) => {
+const RoadMapItem = ({ title, description, photo, reach, coming_soon, percent }) => {
   const [ open, setOpen ] = useState(false);
   const [ isAnimating, setIsAnimating ] = useState(false);
   const [ textHeight, setTextHeight ] = useState(null);
@@ -59,7 +59,8 @@ const RoadMapItem = ({ title, description, photo, reach, percent }) => {
   
   return (
     <RoadMapItemRoot>
-      <Photo>
+      <Photo disable={coming_soon}>
+        <div className="hint">COMMING SOON...</div>
         <img src={photo} alt="" />
       </Photo>
       <Content>
@@ -233,12 +234,26 @@ const Photo = styled.div`
     width: 100%;
     height: 280px;
   }
+  .hint {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    font-size: 24px;
+    color: ${colors.white};
+    opacity: 0;
+    ${({ disable }) => disable && css`opacity: 0.5`};
+  }
   img {
     position: absolute;
     display: block;
     object-fit: cover;
     width: 100%;
     height: 100%;
+    ${({ disable }) => disable && css`opacity: 0.5`};
   }
 `
 

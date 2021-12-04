@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import Slick from 'react-slick';
 import styled, { css } from 'styled-components';
 import { colors } from '../../constants/colors';
@@ -8,7 +8,8 @@ import ModalBox from '../ModalBox';
 const CarouselNew = ({ className='', data }) => {
   const [ currentIndex, setCurrentIndex ] = useState(0)
   const carouselRef = useRef(null);
-  const [ selectedCard, setSelectedCard ] = useState(null)
+  const [ selectedCard, setSelectedCard ] = useState(null);
+  const [ modalOpen, setModalOpen ] = useState(false);
 
   const slickSettings = {
     arrows: false,
@@ -23,23 +24,23 @@ const CarouselNew = ({ className='', data }) => {
     carouselRef.current.slickGoTo(index);
   }
 
-  const modalOpen = useMemo(() => {
-    return selectedCard !== null
-  }, [selectedCard])
-
   function handleCloseModal() {
-    setSelectedCard(null)
+    setModalOpen(false)
+    setTimeout(() => {
+      setSelectedCard(null)
+    }, 300);
   }
 
   function handleClickCardPhoto(e) {
     const { card } = e.currentTarget.dataset;
-    setSelectedCard(card)
+    setSelectedCard(card);
+    setModalOpen(true);
   }
   
   return (
     <>
       <ModalBox open={modalOpen} onClose={handleCloseModal}>
-        <img src={selectedCard} alt="" />
+        <Image src={selectedCard} alt="" />
       </ModalBox>
       <Root>
         <CardContainer>
@@ -184,6 +185,13 @@ const TextItem = styled.div`
       line-height: 18px;
     }
   }
+`
+
+const Image = styled.img`
+  display: block;
+  object-fit: contain;
+  max-width: 80vw;
+  max-height: 80vh;
 `
 
 export default CarouselNew;
