@@ -33,7 +33,7 @@ const MintSection = () => {
   
   return (
     <Root>
-      <CarouselWrapper>
+      <CarouselWrapper id="gallery">
         <CenterCarousel childrenQty={wording.array}>
           { wording.samurai.map((item, i) =>
             <CarouselItem key={i}>
@@ -47,7 +47,7 @@ const MintSection = () => {
       <Title>{ wording.title }</Title>
       <Subtitle>{ wording.subtitle }</Subtitle>
       <Description>{ wording.content }</Description>
-      <Mint id="mint">
+      {/* <Mint id="mint">
         <div className="price">price：{wording.price} Ξ</div>
         <QtySelector qty={qty} 
           onPlusClick={handleAddQty}
@@ -57,7 +57,7 @@ const MintSection = () => {
         <div className="note">{ wording.note }</div>
         <RadiusButton>MINT</RadiusButton>
         <div className="hint">{ wording.hint }</div>
-      </Mint>
+      </Mint> */}
     </Root>
   )
 }

@@ -12,7 +12,7 @@ const BannerSection = () => {
     <Root>
       <Banner src={wording.photo} />
       <Buttonbar>
-        <RadiusButton as={Link} to="/?to=mint">MINT</RadiusButton>
+        <RadiusButton as={Link} to="/?to=gallery">{ wording.button }</RadiusButton>
       </Buttonbar>
     </Root>
   )

@@ -21,9 +21,6 @@ const AutoScrollHelper = () => {
         scrollTo(sec, element.offsetTop);
         firstScroll.current = false;
       }
-      else {
-        handleApplyAutoScroll();
-      }
     }
   }
   

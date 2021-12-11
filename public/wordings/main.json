@@ -1,7 +1,8 @@
 {
     "homepage": {
         "banner": {
-            "photo": "/images/homepage-banner.png"
+            "photo": "/images/homepage-banner.png",
+            "button": "SNEAK PEEK"
         },
         "mint": {
             "samurai": [
@@ -131,11 +132,7 @@
     },
     "header": {
       "links": [
-        { "to": "/?to=gallery", "title": "MINT"},
-        { "to": "/?to=social-class", "title": "GALLERY" },
-        { "to": "/?to=purchase", "title": "ROADMAP"},
-        { "to": "/?to=my-samurai", "title": "ABOUT US"},
-        { "to": "/?to=road-map", "title": "FAQ"}
+        { "to": "/?to=gallery", "title": "GALLERY" }
       ],
       "socials": [
         { "icon": "Discord", "link": "https://discord.gg/bYVgUrWdyr" },
