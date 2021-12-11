@@ -209,7 +209,9 @@ const Wrapper = styled.div`
     }
   }
   .menu {
-    width: 70vw;
+    width: 100%;
+    padding-left: 24px;
+    box-sizing: border-box;
     ${respondTo.lg} {
       width: 100vw;
     }
