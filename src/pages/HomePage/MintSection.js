@@ -47,7 +47,7 @@ const MintSection = () => {
       <Title>{ wording.title }</Title>
       <Subtitle>{ wording.subtitle }</Subtitle>
       <Description>{ wording.content }</Description>
-      <Mint>
+      <Mint id="mint">
         <div className="price">price：{wording.price} Ξ</div>
         <QtySelector qty={qty} 
           onPlusClick={handleAddQty}

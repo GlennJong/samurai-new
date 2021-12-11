@@ -11,7 +11,8 @@ const Carousel = ({ className='', children, childrenQty }) => {
     infinite: true,
     arrows: false,
     dots: false,
-    autoplay: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
     centerMode: true,
     centerPadding: '0',
     afterChange: (e) => setCurrent(e),
@@ -36,14 +37,15 @@ const Carousel = ({ className='', children, childrenQty }) => {
   }
 
   function isDotActive(index) {
-    const dotIndex = childrenQty.findIndex((item) => item.includes(current));
+    const dotIndex = childrenQty.findIndex((item) => item.arr.includes(current));
     return dotIndex === index;
   }
 
   function handleClickDot(e) {
     const index = Number(e.currentTarget.dataset.index);
-    const currentSlide = childrenQty[index][0];
-    carouselRef.current.slickGoTo(currentSlide);
+    const currentSlideGroup = childrenQty[index];
+    
+    carouselRef.current.slickGoTo(currentSlideGroup.target);
   }
 
   return (

@@ -17,13 +17,13 @@ const HomePage = () => {
     <Root>
       <BannerSection />
       <MintSection />
-      <RoadMapSection />
-      <DiscordSection />
-      <ArtistSection />
-      <MerchSection />
-      <CrossoverSection />
-      <FAQSection />
-      <ManifestoSection />
+      {/* <RoadMapSection /> */}
+      {/* <DiscordSection /> */}
+      {/* <ArtistSection /> */}
+      {/* <MerchSection /> */}
+      {/* <CrossoverSection /> */}
+      {/* <FAQSection /> */}
+      {/* <ManifestoSection /> */}
       <MintButton />
     </Root>
   )

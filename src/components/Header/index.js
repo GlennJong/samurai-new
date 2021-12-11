@@ -145,9 +145,9 @@ const Header = () => {
             <LinksList data={wording.links} onLinkClick={handleCloseLinksMenu} />
             <SideList>
               <Others>
-                <ConnectButton onClick={handleClickWalletButton}>
+                {/* <ConnectButton onClick={handleClickWalletButton}>
                   { connectId || 'CONNECT WALLET' }
-                </ConnectButton>
+                </ConnectButton> */}
               </Others>
               <SocialList data={wording.socials} />
             </SideList>
@@ -204,7 +204,7 @@ const Wrapper = styled.div`
     }
     ${respondTo.lg} {
       margin-top: 4px;
-      margin-left: 20px;
+      margin-left: 36px;
       width: 94px;
     }
   }

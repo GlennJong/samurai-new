@@ -28,12 +28,15 @@ const List = styled.div`
   align-items: center;
   margin: 0 18px;
   ${respondTo.lg} {
+    width: 100%;
     justify-content: center;
   }
   ${({ mobile }) => mobile && css`
     display: none;
     ${respondTo.lg} {
       display: flex;
+      width: auto;
+      margin-left: 0;
     }
   `}
 `

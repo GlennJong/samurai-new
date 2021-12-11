@@ -6,25 +6,25 @@
         "mint": {
             "samurai": [
                 "/images/homepage-samurai-1.png",
-                "/images/homepage-samurai-1.png",
-                "/images/homepage-samurai-1.png",
-                "/images/homepage-samurai-1.png",
-                "/images/homepage-samurai-1.png",
-                "/images/homepage-samurai-1.png",
-                "/images/homepage-samurai-1.png",
-                "/images/homepage-samurai-1.png",
-                "/images/homepage-samurai-1.png"
+                "/images/homepage-samurai-2.png",
+                "/images/homepage-samurai-3.png",
+                "/images/homepage-samurai-4.png",
+                "/images/homepage-samurai-5.png",
+                "/images/homepage-samurai-6.png",
+                "/images/homepage-samurai-7.png",
+                "/images/homepage-samurai-8.png",
+                "/images/homepage-samurai-9.png"
             ],
             "array": [
-                [0],
-                [1,2],
-                [3,4,5],
-                [6,7],
-                [8]
+                { "arr": [0], "target": 0},
+                { "arr": [1,2], "target": 2},
+                { "arr": [3,4,5], "target": 4},
+                { "arr": [6,7], "target": 6},
+                { "arr": [8], "target": 8}
             ],
             "title": "KATANA N SAMURAI",
             "subtitle": "The Last Ramen",
-            "content": "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!",
+            "content": "KNS: The Last Ramen is the 2.0 era of Katana N’ Samurai and a generative collection of 6666 unique digital artwork (NFTs) housed and run on the Ethereum Network.\nUkiyo-e is a traditional art famous in Japan back in 1700s, and we aim to bring this kind of historic art into the whole NFT market and spread Japanese culture. Also, in order to make here a sustainable and interactive community, KNS: The Last Ramen would eventually build community treasury and build KNS into a sustainable ecosystem. All in all, welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of KNS community!",
             "price": 0.05,
             "note": "PHASE TWO / 24 REMAINING",
             "hint": "🦊 Please Connect to Metamask with the right button first."
@@ -134,12 +134,13 @@
         { "to": "/?to=gallery", "title": "MINT"},
         { "to": "/?to=social-class", "title": "GALLERY" },
         { "to": "/?to=purchase", "title": "ROADMAP"},
-        { "to": "/my-samurai", "title": "ABOUT US"},
+        { "to": "/?to=my-samurai", "title": "ABOUT US"},
         { "to": "/?to=road-map", "title": "FAQ"}
       ],
       "socials": [
         { "icon": "Discord", "link": "https://discord.gg/bYVgUrWdyr" },
-        { "icon": "Twitter", "link": "https://twitter.com/KatanaNSamurai" }
+        { "icon": "Twitter", "link": "https://twitter.com/KatanaNSamurai" },
+        { "icon": "Medium", "link": "https://katana-n-samurai.medium.com/" }
       ]
     }
 }

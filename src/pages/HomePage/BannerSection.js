@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { RadiusButton } from '../../components/RadiusButton';
 import { respondTo } from '../../utils/responsive';
@@ -11,7 +12,7 @@ const BannerSection = () => {
     <Root>
       <Banner src={wording.photo} />
       <Buttonbar>
-        <RadiusButton>MINT</RadiusButton>
+        <RadiusButton as={Link} to="/?to=mint">MINT</RadiusButton>
       </Buttonbar>
     </Root>
   )
