@@ -27,6 +27,7 @@ const Header = () => {
   const dispatch = useDispatch(walletStatus);
   const { connectId } = useSelector(state => state.walletStatus);
 
+
   useEffect(() => {
     window.addEventListener('scroll', handleWindowScroll);    
     return () => window.removeEventListener('scroll', handleWindowScroll);
@@ -179,10 +180,12 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px;
+  padding: 0 18px;
+  height: 72px;
   transition: all .3s ease ${({time}) => time}ms;
   ${respondTo.lg} {
     padding: 0;
+    height: auto;
   }
   .logo {
     position: relative;
@@ -210,6 +213,7 @@ const Wrapper = styled.div`
   }
   .menu {
     width: 100%;
+    height: 100%;
     padding-left: 24px;
     box-sizing: border-box;
     ${respondTo.lg} {

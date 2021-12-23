@@ -7,6 +7,7 @@ import { useWordingLoader } from './utils/wordingSystem';
 
 import appStore from './store/app';
 import walletStatus from './store/walletStatus';
+import scrollSpy from './store/scrollSpy';
 
 import GlobalStyle from './components/GlobalStyle';
 import IntroAnimation from './components/IntroAnimation';
@@ -16,7 +17,8 @@ import HomePage from './pages/HomePage';
 
 const reducer = combineReducers({
   app: appStore.reducer,
-  walletStatus: walletStatus.reducer
+  walletStatus: walletStatus.reducer,
+  scrollSpy: scrollSpy.reducer
 });
 
 const store = createStore(reducer);

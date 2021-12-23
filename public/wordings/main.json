@@ -132,7 +132,9 @@
     },
     "header": {
       "links": [
-        { "to": "/?to=gallery", "title": "GALLERY" }
+          { "to": "/?to=gallery", "title": "GALLERY" },
+          { "to": "/?to=test1", "spy": "test1", "title": "TEST" },
+          { "to": "/?to=test2", "spy": "test2", "title": "TEST" }
       ],
       "socials": [
         { "icon": "Discord", "link": "https://discord.gg/bYVgUrWdyr" },
