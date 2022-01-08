@@ -13,11 +13,7 @@ const DiscordSection = () => {
     <Root>
       <Container>
         <Slider>
-          <Carousel>
-            { wording.list.map((item, i) =>
-              <Item key={i}><img src={item} alt="" /></Item>
-            ) }
-          </Carousel>
+          <Item ><img src={wording.photo} alt="" /></Item>
         </Slider>
         <Info>
           <div className="content">

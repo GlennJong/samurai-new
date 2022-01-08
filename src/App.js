@@ -24,7 +24,7 @@ const reducer = combineReducers({
 const store = createStore(reducer);
 
 const App = ({ wording, Router = BrowserRouter }) => {
-  const wordingLoaded = useWordingLoader(wording ?? '/wordings/main.json?v=202106201530');
+  const wordingLoaded = useWordingLoader(wording ?? '/wordings/main.json?v=20220108');
 
   return (
     <Provider store={store}>

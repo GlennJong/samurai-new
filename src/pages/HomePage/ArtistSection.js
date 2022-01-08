@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Carousel from '../../components/CarouselNew';
-import CardCarousel from '../../components/CardCarousel';
-import ArtistCarousel from '../../components/ArtistCarousel';
 import ModalBox from '../../components/ModalBox';
 import { colors } from '../../constants/colors';
 import { respondTo } from '../../utils/responsive';
@@ -32,7 +30,7 @@ const ArtistSection = () => {
         <Image src={selectedPicture} alt="" />
       </ModalBox>
       <Root>
-        <Title>ARTIST</Title>
+        <Title>TEAM</Title>
         <Section1>
           <Info>
             <div className="head">
@@ -40,7 +38,13 @@ const ArtistSection = () => {
             </div>
             <div className="info">
               <div className="subtitle">{ wording.subtitle }</div>
-              <div className="title">{ wording.title }</div>
+              <div className="title">
+                { wording.link ?
+                  <a href={wording.link} target="_blank">{ wording.title }</a>
+                  :
+                  wording.title
+                }
+              </div>
               <div className="content">{ wording.content }</div>
             </div>
           </Info>
@@ -83,16 +87,6 @@ const ArtistSection = () => {
             </Carousel>
           </GalleryMobile>
         </Section1>
-        <Section2>
-          <CardContainer>
-            <CardCarousel data={wording.card_data} />
-          </CardContainer>
-        </Section2>
-        <Section3>
-          <div className="container">
-            <ArtistCarousel data={wording.artist_data} childrenQty={wording.artist_data_array} />
-          </div>
-        </Section3>
       </Root>
     </>
   )
@@ -102,11 +96,9 @@ const Root = styled.div`
   border-top: 1px solid #4D4D4D;
   padding: 0 34px;
   padding-top: 180px;
-  padding-bottom: 240px;
   box-sizing: border-box;
   ${respondTo.md} {
     padding-top: 64px;
-    padding-bottom: 64px;
   }
 `
 
@@ -134,32 +126,6 @@ const Section1 = styled.div`
   ${respondTo.md} {
     padding-bottom: 60px;
     display: block;
-  }
-`
-
-const Section2 = styled.div`
-  border-bottom: 1px solid #4D4D4D;
-  margin: 0 auto;
-  padding: 180px 0;
-  width: 1438px;
-  max-width: 100%;
-  ${respondTo.md} {
-    padding-top: 50px;
-    padding-bottom: 90px;
-  }
-`
-
-const Section3 = styled.div`
-  padding-top: 180px;
-  overflow: hidden;
-  ${respondTo.md} {
-    padding-top: 54px;
-  }
-  .container {
-    margin: 0 -10%;
-    ${respondTo.md} {
-      margin: 0;
-    }
   }
 `
 
@@ -217,6 +183,7 @@ const Info = styled.div`
     .content {
       font-size: 18px;
       line-height: 30px;
+      white-space: break-spaces;
       ${respondTo.md} {
         font-size: 12px;
         line-height: 18px;

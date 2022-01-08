@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import CenterCarousel from '../../components/CenterCarousel'
 import { Plus, Minus } from '../../components/Icons';
 import { RadiusButton } from '../../components/RadiusButton';
+import SpySection from '../../components/SpySection';
 import { colors } from '../../constants/colors';
 import { respondTo } from '../../utils/responsive';
 import { _w } from '../../utils/wordingSystem'
@@ -47,17 +48,19 @@ const MintSection = () => {
       <Title>{ wording.title }</Title>
       <Subtitle>{ wording.subtitle }</Subtitle>
       <Description>{ wording.content }</Description>
-      {/* <Mint id="mint">
-        <div className="price">price：{wording.price} Ξ</div>
-        <QtySelector qty={qty} 
-          onPlusClick={handleAddQty}
-          onMinusClick={handleDecreaseQty}
-          onQtyInput={handleSetQty}
-        />
-        <div className="note">{ wording.note }</div>
-        <RadiusButton>MINT</RadiusButton>
-        <div className="hint">{ wording.hint }</div>
-      </Mint> */}
+      <SpySection id="mint">
+        <Mint>
+          <div className="price">price：{wording.price} Ξ</div>
+          <QtySelector qty={qty} 
+            onPlusClick={handleAddQty}
+            onMinusClick={handleDecreaseQty}
+            onQtyInput={handleSetQty}
+          />
+          <div className="note">{ wording.note }</div>
+          <RadiusButton>MINT</RadiusButton>
+          <div className="hint">{ wording.hint }</div>
+        </Mint>
+      </SpySection>
     </Root>
   )
 }

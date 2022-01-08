@@ -12,11 +12,11 @@ const MerchSection = () => {
     const arr = new Array(Math.ceil(wording.list.length/3));
 
     wording.list.forEach((item, i) => {
-      if (!arr[Math.floor(i/3)]) {
-        arr[Math.floor(i/3)] = [item]
+      if (!arr[Math.floor(i/4)]) {
+        arr[Math.floor(i/4)] = [item]
       }
       else {
-        arr[Math.floor(i/3)].push(item)
+        arr[Math.floor(i/4)].push(item)
       }
     })
     
@@ -29,17 +29,15 @@ const MerchSection = () => {
       <Container>
         <CarouselContainer>
           <Carousel navStyle="bottom: calc(100% + 50px); right: 0; width: auto"
+           controller={false}
            navMobileStyle="bottom: calc(100% + 40px); right: 0; width: auto">
             { merchData?.map((item, i) =>
-              <List qty={3} key={i}>
+              <List qty={4} key={i}>
                 { item.map((child, j) =>
                   <li key={j}>
-                    <Item>
+                    <Item as="a" href={ child.link } target="_blank">
                       <div className="photo"><img src={child.photo} alt="" /></div>
                       <div className="title">{ child.title }</div>
-                      <div className="link">
-                        <a href={ child.link } target="_blank">→  Comming soon</a>
-                      </div>
                     </Item>
                   </li>
                 ) }
@@ -111,6 +109,7 @@ const List = styled.ul`
 `
 
 const Item = styled.div`
+  display: block;
   border: 1px solid ${colors.white};
   border-radius: 40px;
   padding: 24px 30px;
@@ -118,7 +117,7 @@ const Item = styled.div`
   .photo {
     margin-bottom: 40px;
     width: 100%;
-    height: 400px;
+    height: 300px;
     > img {
       display: block;
       object-fit: contain;

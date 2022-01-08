@@ -2,7 +2,7 @@
     "homepage": {
         "banner": {
             "photo": "/images/homepage-banner.png",
-            "button": "SNEAK PEEK"
+            "button": "CLAIM"
         },
         "mint": {
             "samurai": [
@@ -25,84 +25,121 @@
             ],
             "title": "KATANA N SAMURAI",
             "subtitle": "The Last Ramen",
-            "content": "KNS: The Last Ramen is the 2.0 era of Katana N’ Samurai and a generative collection of 6666 unique digital artwork (NFTs) housed and run on the Ethereum Network.\nUkiyo-e is a traditional art famous in Japan back in 1700s, and we aim to bring this kind of historic art into the whole NFT market and spread Japanese culture. Also, in order to make here a sustainable and interactive community, KNS: The Last Ramen would eventually build community treasury and build KNS into a sustainable ecosystem. All in all, welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of KNS community!",
+            "content": "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!",
             "price": 0.05,
             "note": "PHASE TWO / 24 REMAINING",
             "hint": "🦊 Please Connect to Metamask with the right button first."
         },
         "roadmap": {
             "list": [
-                { "title": "KNS Roadmap Demo", "percent": 20, "reach": true, "coming_soon": false,  "photo": "/images/homepage-roadmap-1.png", "description": "KNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap Demo" },
-                { "title": "KNS Roadmap Demo", "percent": 40, "reach": false,  "coming_soon": false, "photo": "/images/homepage-roadmap-1.png", "description": "KNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap Demo" },
-                { "title": "KNS Roadmap Demo", "percent": 60, "reach": false,  "coming_soon": false, "photo": "/images/homepage-roadmap-1.png", "description": "Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap Demo" },
-                { "title": "KNS Roadmap Demo", "percent": 80, "reach": false,  "coming_soon": true, "photo": "/images/homepage-roadmap-1.png", "description": "Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap Demo" },
-                { "title": "KNS Roadmap Demo", "percent": 100, "reach": true,  "coming_soon": true, "photo": "/images/homepage-roadmap-1.png", "description": "Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap DemoKNS Roadmap Demo" }
+                { "title": "Merch for community", "percent": 30, "reach": true, "coming_soon": false,  "photo": "/images/homepage-roadmap-30.png", "description": "Merch for community To create connection KNS and reality, we want to bring KNS lifestyle into our daily life. Including Ramen bowl, kendama, phone case, hoodie, skateboard, an amount of KNS swag kits will be raffled to holders for free. If our community enjoys the concept of KNS lifestyle, we’ll plan to unlock the merch store for our community. Also, all the profits of merchandise will be sent to our community treasury. " },
+                { "title": "Sandbox Metaverse", "percent": 50, "reach": false,  "coming_soon": false, "photo": "/images/homepage-roadmap-50.png", "description": "Ramen Bar for community Metaverse is somewhere you could be anything and anyone. A place or land belongs to KNS would enhance the bonding of our community and make KNS a better project to go far. We’ll buy serveral lands in Sandbox and build a Crypto Raman Bar. And we’ll mint some 3D charactors related to KNS in Sandbox. All the revenue from Sandbox will be sent to our community treasury." },
+                { "title": "Ramen Bar Openning", "percent": 70, "reach": false,  "coming_soon": false, "photo": "/images/homepage-roadmap-70.png", "description": "We enjoy Japanese culture and love Ramen with our whole heart. After running a Metaverse Ramen Bar, we also want to build a real Ramen Bar in reality. Owned by our community and build in KNS ukiyo-e style. This Ramen Bar will be built in Taiwan. After the Ramen Bar runs stably, vacuum pack of Ramen will be available in our merch store. All the revenue of Ramen Bar and vacuum pack will be sent to our community treasury." },
+                { "title": "Sustainable Ecosystem", "percent": 100, "reach": false,  "coming_soon": true, "photo": "/images/homepage-roadmap-100.png", "description": "For long-term development in crypto world, KNS is planned to run sustainable. Moreover, we want to create an ecosystem inside KNS to go far with our community. We plan to release our KNS token that our community could use in our The Last Ramen space." }
             ]
         },
         "discord": {
-            "list": [
-                "/images/homepage-discord-1.png",
-                "/images/homepage-discord-1.png",
-                "/images/homepage-discord-1.png"
-            ],
+            "photo": "/images/homepage-discord-1.png",
             "title": "Join our Discord",
             "description": "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world."
         },
         "artist": {
-            "head": "/images/homepage-artist-1.png",
-            "subtitle": "ARTIST",
-            "title": "Title",
-            "conent": "People who join \nSamuraiverse will be involved.\nWho join Samurai verse.\nPeople who join \nSamuraiverse will be involved.",
+            "head": "/images/homepage-artist-head.png",
+            "subtitle": "artist",
+            "title": "Wu Tsu Tsu",
+            "link": "https://twitter.com/",
+            "content": "#Illustration #Ukiyoe #Yamato \nGraphic / UI designer working in Taiwan. Experience in visual design.",
             "gallery": [
                 [
-                    { "title": "TITLE", "note": "Digital Painting  / 2021", "photo": "/images/homepage-artist-2.png" },
-                    { "title": "TITLE", "note": "Digital Painting  / 2021", "photo": "/images/homepage-artist-2.png" }
+                    { "title": "ROBOT SAMURAI - No.Æ️", "note": "Digital art / 2021", "photo": "/images/homepage-artist-1.png" },
+                    { "title": "ROBOT SAMURAI ", "note": "Digital art / 2021", "photo": "/images/homepage-artist-2.png" }
                 ],
                 [
-                    { "title": "TITLE", "note": "Digital Painting  / 2021", "photo": "/images/homepage-artist-2.png" }
+                    { "title": "THE CREATION of ADAM", "note": "Woodblock art / 2021", "photo": "/images/homepage-artist-3.png" },
+                    { "title": "KNS GENESIS", "note": "Collection NFT / 2021", "photo": "/images/homepage-artist-4.jpg" }
                 ],
                 [
-                    { "title": "TITLE", "note": "Digital Painting  / 2021", "photo": "/images/homepage-artist-2.png" }
-                ],
-                [
-                    { "title": "TITLE", "note": "Digital Painting  / 2021", "photo": "/images/homepage-artist-2.png" },
-                    { "title": "TITLE", "note": "Digital Painting  / 2021", "photo": "/images/homepage-artist-2.png" }
+                    { "title": "BEAT THE BANK", "note": "Collab NFT / 2021", "photo": "/images/homepage-artist-5.png" },
+                    { "title": "IT'S TIME FOR BED", "note": "Collab NFT / 2021", "photo": "/images/homepage-artist-6.png" }
                 ]
+            ]
+        },
+        "story": {
+            "team": [
+                {
+                    "title": "Zeuxeux",
+                    "subtitle": "Community Manager",
+                    "content": "#Illustration #Ukiyoe \nGraphic / UI designer\nworking in Taiwan.",
+                    "link": "https://twitter.com/",
+                    "photo": "/images/homepage-team-1.png"
+                },
+                {
+                    "title": "Faded",
+                    "subtitle": "Head MOD",
+                    "content": "#Illustration #Ukiyoe\nGraphic / UI designer\nworking in Taiwan.",
+                    "link": "https://twitter.com/",
+                    "photo": "/images/homepage-team-2.png"
+                },
+                {
+                    "title": "Vondoom",
+                    "subtitle": "Marketing Partner",
+                    "content": "#Illustration #Ukiyoe\nGraphic / UI designer\nworking in Taiwan.",
+                    "link": "https://twitter.com/",
+                    "photo": "/images/homepage-team-3.png"
+                },
+                {
+                    "title": "Dr. Susanoo",
+                    "subtitle": "Project Manager",
+                    "content": "#Illustration #Ukiyoe\nGraphic / UI designer\nworking in Taiwan.",
+                    "link": "https://twitter.com/",
+                    "photo": "/images/homepage-team-4.png"
+                },
+                {
+                    "title": "Ryanycw",
+                    "subtitle": "Dev",
+                    "content": "#Illustration #Ukiyoe\nGraphic / UI designer\nworking in Taiwan.",
+                    "link": "https://twitter.com/",
+                    "photo": "/images/homepage-team-5.png"
+                },
+                {
+                    "title": "AlexPK",
+                    "subtitle": "Dev",
+                    "content": "#Illustration #Ukiyoe\nGraphic / UI designer\nworking in Taiwan.",
+                    "link": "https://twitter.com/",
+                    "photo": "/images/homepage-team-6.png"
+                },
+                {
+                    "title": "Swi",
+                    "subtitle": "Consultant",
+                    "content": "#Illustration #Ukiyoe\nGraphic / UI designer\nworking in Taiwan.",
+                    "link": "https://twitter.com/",
+                    "photo": "/images/homepage-team-7.png"
+                }
             ],
             "card_data": [
-                { "photo": "/images/homepage-artist-3.png", "title": "KNS VERSE1", "content": "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world." },
-                { "photo": "/images/homepage-artist-3.png", "title": "KNS VERSE2", "content": "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world." },
-                { "photo": "/images/homepage-artist-3.png", "title": "KNS VERSE3", "content": "Katana N’ Samurai is a collection of 10,000 unique digital samurai. We initiated the blockchain time machine and sent all the Cryptopunks back to ancient Japan. It’s not the year 2021, it’s the year 1700. In this parallel universe, Samurai belong to different Shogunate, carry different levels of power, with their legends. Ukiyo-e is the way we picture our Katana N’ Samurai. Also, we want to record the history of the blockchain world." }
+                { "photo": "/images/homepage-story-1.png", "title": "Story of KNS:\nThe Last Ramen", "content": "In 2140, after World War III ended. The world signed the Treaty on the Prohibition of nuclear weapons. The world splits into four clans. They are Mutant, Monster, Animal and Cyberg. They take charge of the Earth respectively." },
+                { "photo": "/images/homepage-story-2.png", "title": "Story of KNS:\nThe Last Ramen", "content": "To deal with international affairs, the meeting of four chiefs usually take place in the last Ramen shop in Japan. Because of the yummy ramen, the world maintains in peace." },
+                { "photo": "/images/homepage-story-3.png", "title": "Story of KNS:\nThe Last Ramen", "content": "As the water source problems getting worse, one dat they found out there is only one bowl of Ramen last. To win the Last ramen, the World War IV begins......" }
             ],
             "artist_data": [
-                { "title": "title1", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
-                { "title": "title2", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
-                { "title": "title3", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
-                { "title": "title4", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
-                { "title": "title5", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
-                { "title": "title6", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
-                { "title": "title7", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
-                { "title": "title8", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" },
-                { "title": "title9", "subtitle": "subtitle", "content": " Also, we want to record the history of the blockchain world. To make here a sustainable and interactive community, Samurai community will eventually run by a DAO. People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! Join our Discord and follow our Twitter to be part of our community!", "photo": "/images/homepage-artist-4.png" }
+                { "title": "Animal Samurai", "content": "Because of the adorable apperence, many bad people transfered cute animals into NFTs during WWIII. With hatred of ERC-721 and for the magic power of ramen, this time they pick up the weapon and fight of THE LAST RAMEN with other clan.", "photo": ["/images/homepage-artist-gallery-1.png", "/images/homepage-artist-gallery-2.png", "/images/homepage-artist-gallery-3.png", "/images/homepage-artist-gallery-4.png"] },
+                { "title": "Mutant Samurai", "content": "During World War III, people discovered the key DNA series to control body function. The first group of mutants became the best killers on battlefield. From generation to generation, mutants have became a whole new clan, Mutants love RAMEN so much because of the biochemical research reason, so they will definitely fight for THE LAST RAMEN.", "photo": ["/images/homepage-artist-gallery-5.png", "/images/homepage-artist-gallery-6.png", "/images/homepage-artist-gallery-7.png", "/images/homepage-artist-gallery-8.png"] },
+                { "title": "Cyborg Samurai", "content": "After World War III, the development of AI became so mature that one day the first self-conscious robot born in  a E-sports competition. And the AI fell in love with an engineer, the first cyborg was born into the world. After years, the cyborgs finally groupd up and bulit a independent country. Btw, they love solving things with technology. Like finding the recipe and ratio to make a good soup.", "photo": ["/images/homepage-artist-gallery-9.png", "/images/homepage-artist-gallery-10.png", "/images/homepage-artist-gallery-11.png", "/images/homepage-artist-gallery-12.png"] },
+                { "title": "Monster Samurai", "content": "After thousands of years laying in the underworld of Japan, the boringness make the monsters feel like having some ramen, especially THE LAST RAMEN in the entire universe. Some of them were transformed from the soul of the loyal samurai. But others are just born from the nature.", "photo": ["/images/homepage-artist-gallery-13.png", "/images/homepage-artist-gallery-14.png", "/images/homepage-artist-gallery-15.png", "/images/homepage-artist-gallery-16.png"] }
             ],
             "artist_data_array": [
                 [0],
-                [1,2],
-                [3,4,5],
-                [6,7],
-                [8]
+                [1],
+                [2],
+                [3]
             ]
         },
         "merch": {
             "list": [
-                { "photo": "/images/homepage-merch-1.png", "title": "title", "link": "https://google.com" },
-                { "photo": "/images/homepage-merch-2.png", "title": "title", "link": "https://google.com" },
-                { "photo": "/images/homepage-merch-3.png", "title": "title", "link": "https://google.com" },
-                { "photo": "/images/homepage-merch-1.png", "title": "title", "link": "https://google.com" },
-                { "photo": "/images/homepage-merch-2.png", "title": "title", "link": "https://google.com" },
-                { "photo": "/images/homepage-merch-3.png", "title": "title", "link": "https://google.com" },
-                { "photo": "/images/homepage-merch-1.png", "title": "title", "link": "https://google.com" },
-                { "photo": "/images/homepage-merch-2.png", "title": "title", "link": "https://google.com" }
+                { "photo": "/images/homepage-merch-kendama.jpg", "title": "KENDAMA", "link": "https://google.com" },
+                { "photo": "/images/homepage-merch-board.jpg", "title": "SKATEBOARD", "link": "https://google.com" },
+                { "photo": "/images/homepage-merch-hoodle.jpg", "title": "HOODLE", "link": "https://google.com" },
+                { "photo": "/images/homepage-merch-case.jpg", "title": "PHONE CASE", "link": "https://google.com" }
             ]
         },
         "crossover": {
@@ -111,35 +148,43 @@
         },
         "faq": {
             "list": [
-                { "question": "・What happens if all 10000 editions run out?", "answer": "If you are unable to purchase on the first mint listing, you’re always welcome to buy in secondary market. Let’s get it while it’s not too LATE."},
-                { "question": "・What happens if all 10000 editions run out?", "answer": "If you are unable to purchase on the first mint listing, you’re always welcome to buy in secondary market. Let’s get it while it’s not too LATE."},
-                { "question": "・What happens if all 10000 editions run out?", "answer": "If you are unable to purchase on the first mint listing, you’re always welcome to buy in secondary market. Let’s get it while it’s not too LATE."},
-                { "question": "・What happens if all 10000 editions run out?", "answer": "If you are unable to purchase on the first mint listing, you’re always welcome to buy in secondary market. Let’s get it while it’s not too LATE."},
-                { "question": "・What happens if all 10000 editions run out?", "answer": "If you are unable to purchase on the first mint listing, you’re always welcome to buy in secondary market. Let’s get it while it’s not too LATE."},
-                { "question": "・What happens if all 10000 editions run out?", "answer": "If you are unable to purchase on the first mint listing, you’re always welcome to buy in secondary market. Let’s get it while it’s not too LATE."}
-            ]
-        },
-        "manifesto": {
-            "list": [
-                { "title": "Terms & Conditions", "content": "People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! "},
-                { "title": "Terms & Conditions", "content": "People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! "},
-                { "title": "Terms & Conditions", "content": "People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! "},
-                { "title": "Terms & Conditions", "content": "People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! "},
-                { "title": "Terms & Conditions", "content": "People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! "},
-                { "title": "Terms & Conditions", "content": "People who join Samuraiverse will be involved in determining the direction of this project, including designing Katana with the team. Welcome to Samuraiverse! "}
+                { "question": "How can I mint a samurai?", "answer": "Connect the your Metamask wallet and find the MINT button which can be found at the top of the website."},
+                { "question": "Which type of cotract is KNS tokens under?", "answer": "KNS tokens wrapped inside an ERC-721 interface are generated by a generative algorithm through the combination of different properties (background, character, weapon, etc.). KNS team make sure to create 6,666 unique tokens and ensure rarity of different properties."},
+                { "question": "Can I mint on my mobile?", "answer": "Yes, you will be able to mint through Metamask app on your mobile."},
+                { "question": "Where are the images for the KNS tokens stored?", "answer": "While ERC-721 is the standard for non-fungible tokens, it is generally used to manage ownership of digital items stored elsewhere. Save the high cost of ERC721 storage space by storing artworks on IPFS (InterPlanetary File System)."},
+                { "question": "Is there a limit?", "answer": "Yes and no. We will be limiting people to 50 samurai per transaction. This does mean you can return to the mint section as many times as you want though."},
+                { "question": "Would KNS get the royalty through second-hand transactions? ", "answer": "No, we won't get royalty through second-hand transcations."}
             ]
         }
     },
     "header": {
       "links": [
-          { "to": "/?to=gallery", "title": "GALLERY" },
-          { "to": "/?to=test1", "spy": "test1", "title": "TEST" },
-          { "to": "/?to=test2", "spy": "test2", "title": "TEST" }
+          { "to": "/?to=mint", "spy": "mint", "title": "MINT" },
+          { "to": "/?to=roadmap", "spy": "roadmap", "title": "ROADMAP" },
+          { "to": "/?to=team", "spy": "team", "title": "TEAM" },
+          { "to": "/?to=story", "spy": "story", "title": "STORY" },
+          { "to": "/?to=merch", "spy": "merch", "title": "MERCH" },
+          { "to": "/?to=faq", "spy": "faq", "title": "FAQ" }
       ],
       "socials": [
         { "icon": "Discord", "link": "https://discord.gg/bYVgUrWdyr" },
         { "icon": "Twitter", "link": "https://twitter.com/KatanaNSamurai" },
         { "icon": "Medium", "link": "https://katana-n-samurai.medium.com/" }
       ]
-    }
+    },
+    "footer": {
+        "links": [
+            { "to": "/?to=mint", "spy": "mint", "title": "MINT" },
+            { "to": "/?to=roadmap", "spy": "roadmap", "title": "ROADMAP" },
+            { "to": "/?to=team", "spy": "team", "title": "TEAM" },
+            { "to": "/?to=story", "spy": "story", "title": "STORY" },
+            { "to": "/?to=merch", "spy": "merch", "title": "MERCH" },
+            { "to": "/?to=faq", "spy": "faq", "title": "FAQ" }
+        ],
+        "socials": [
+          { "icon": "Discord", "link": "https://discord.gg/bYVgUrWdyr" },
+          { "icon": "Twitter", "link": "https://twitter.com/KatanaNSamurai" },
+          { "icon": "Medium", "link": "https://katana-n-samurai.medium.com/" }
+        ]
+      }
 }

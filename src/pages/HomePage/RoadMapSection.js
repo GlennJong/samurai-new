@@ -59,7 +59,7 @@ const RoadMapItem = ({ title, description, photo, reach, coming_soon, percent })
   
   return (
     <RoadMapItemRoot>
-      <Photo disable={coming_soon}>
+      <Photo disable={coming_soon} open={open}>
         <div className="hint">COMMING SOON...</div>
         <img src={photo} alt="" />
       </Photo>
@@ -232,7 +232,10 @@ const Photo = styled.div`
   box-sizing: border-box;
   ${respondTo.lg} {
     width: 100%;
-    height: 280px;
+    max-height: 280px;
+    overflow: hidden;
+    transition: max-height 1s ease;
+    ${({ open }) => open && css`max-height: 100vh`};
   }
   .hint {
     position: absolute;
@@ -254,6 +257,10 @@ const Photo = styled.div`
     width: 100%;
     height: 100%;
     ${({ disable }) => disable && css`opacity: 0.5`};
+
+    ${respondTo.lg} {
+      position: relative;
+    }
   }
 `
 

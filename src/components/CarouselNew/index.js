@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components';
 import { colors } from '../../constants/colors';
 import { respondTo } from '../../utils/responsive';
 
-const CarouselNew = ({ className='', navStyle = 'top: calc(100% + 50px)', navMobileStyle = 'top: calc(100% + 15px)', children }) => {
+const CarouselNew = ({ className='', controller=true, navStyle = 'top: calc(100% + 50px)', navMobileStyle = 'top: calc(100% + 15px)', children }) => {
   const carouselRef = useRef(null);
   const slickSettings = {
     arrows: false,
@@ -24,10 +24,12 @@ const CarouselNew = ({ className='', navStyle = 'top: calc(100% + 50px)', navMob
 
   return (
     <Root navStyle={navStyle} navMobileStyle={navMobileStyle}>
-      <NavContainer>
-        <button data-direction="prev" onClick={handleClickArrowButton}/>
-        <button data-direction="next" onClick={handleClickArrowButton}/>
-      </NavContainer>
+      { controller &&
+        <NavContainer>
+          <button data-direction="prev" onClick={handleClickArrowButton}/>
+          <button data-direction="next" onClick={handleClickArrowButton}/>
+        </NavContainer>
+      }
       <CarouselBody>
         <Slick className={className} ref={carouselRef} {...slickSettings}>
           { children.map((child, i) => <div key={i}>{ child }</div>) }

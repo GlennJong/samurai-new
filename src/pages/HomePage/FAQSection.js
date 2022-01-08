@@ -69,7 +69,6 @@ const Wrapper = styled.div`
 const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -50px;
   ${respondTo.md} {
     display: block;
     margin: 0;
@@ -89,7 +88,20 @@ const List = styled.ul`
 `
 
 const Item = styled.div`
+  padding-left: 50px;
   .question {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 14px;
+      left: -18px;
+      display: block;
+      width: 6px;
+      height: 6px;
+      background: ${colors.white};
+      border-radius: 50%;
+    }
     cursor: pointer;
     color: ${colors.white};
     line-height: 36px;
@@ -101,7 +113,6 @@ const Item = styled.div`
     }
   }
   .answer {
-    padding-left: 24px;
     opacity: 0.3;
     color: ${colors.white};
     line-height: 36px;

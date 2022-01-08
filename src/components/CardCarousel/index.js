@@ -172,7 +172,9 @@ const TextItem = styled.div`
   text-align: center;
   .title {
     margin-bottom: 24px;
-    font-size: 80px;
+    white-space: break-spaces;
+    font-weight: 900;
+    font-size: 48px;
     ${respondTo.md} {
       font-size: 28px;
     }
