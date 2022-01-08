@@ -218,6 +218,7 @@ const Wrapper = styled.div`
     box-sizing: border-box;
     ${respondTo.lg} {
       width: 100vw;
+      height: 100vh;
     }
   }
 `

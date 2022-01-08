@@ -232,10 +232,11 @@ const Photo = styled.div`
   box-sizing: border-box;
   ${respondTo.lg} {
     width: 100%;
-    max-height: 280px;
+    padding-bottom: 100%;
+    height: 0;
     overflow: hidden;
-    transition: max-height 1s ease;
-    ${({ open }) => open && css`max-height: 100vh`};
+    transition: padding-bottom 1s ease;
+    ${({ open }) => open && css`padding-bottom: 180%;`};
   }
   .hint {
     position: absolute;
@@ -254,13 +255,11 @@ const Photo = styled.div`
     position: absolute;
     display: block;
     object-fit: cover;
+    object-position: 50% top;
     width: 100%;
     height: 100%;
     ${({ disable }) => disable && css`opacity: 0.5`};
 
-    ${respondTo.lg} {
-      position: relative;
-    }
   }
 `
 

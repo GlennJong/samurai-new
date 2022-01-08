@@ -177,11 +177,17 @@ const Item = styled.div`
   }
   .gallery {
     display: flex;
+    flex-wrap: wrap;
   }
   .photo {
     width: 25%;
     padding: 0 30px;
     box-sizing: border-box;
+    ${respondTo.md} {
+      padding: 0 12px;
+      margin-bottom: 24px;
+      width: 50%;
+    }
     > div {
       border-radius: 20px;
       overflow: hidden;

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import { Link } from 'react-router-dom';
-import { respondTo } from '../../utils/responsive';
+import { respondFrom, respondTo } from '../../utils/responsive';
 import { useSelector } from 'react-redux';
 import { colors } from '../../constants/colors';
 
@@ -23,8 +23,9 @@ const List = styled.div`
   height: 100%;
   ${respondTo.lg} {
     display: block;
-    text-align: center;
     margin-bottom: 80px;
+    height: auto;
+    text-align: center;
   }
 `
 
@@ -51,15 +52,21 @@ const LinkItem = styled(Link)`
     background: ${colors.white};
     transition: opacity .3s ease;
   }
-  ${({ active }) => active && css`
-    &:before {
-      opacity: 1;
-    }
-  `}
+  ${respondFrom.lg} {
+    ${({ active }) => active && css`
+      &:before {
+        opacity: 1;
+      }
+    `}
+  }
   
   ${respondTo.lg} {
+    display: block;
     margin: 0;
+    height: auto;
     font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
   }
 
   ${({ showForMobile }) => showForMobile && css`
