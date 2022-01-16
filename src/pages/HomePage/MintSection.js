@@ -57,7 +57,10 @@ const MintSection = () => {
             onQtyInput={handleSetQty}
           />
           <div className="note">{ wording.note }</div>
-          <RadiusButton>MINT</RadiusButton>
+          <div className="buttonbar">
+            <RadiusButton>MINT</RadiusButton>
+            <RadiusButton className="connect">CONNECT WALLET</RadiusButton>
+          </div>
           <div className="hint">{ wording.hint }</div>
         </Mint>
       </SpySection>
@@ -202,6 +205,23 @@ const Mint = styled.div`
       margin-top: 24px;
       font-size: 12px;
       width: 220px;
+    }
+  }
+  .buttonbar {
+    text-align: center;
+    padding: 0 12px;
+    ${respondTo.md} {
+      display: flex;
+      justify-content: space-between;
+      > button, > a {
+        width: calc(50% - 4px);
+      }
+    }
+    > .connect {
+      display: none;
+      ${respondTo.md} {
+        display: inline-block;
+      }
     }
   }
 `
